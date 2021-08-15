@@ -1,0 +1,48 @@
+@import url("http://fonts.cdnfonts.com/css/gotham-rounded");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gotham Rounded", sans-serif;
+}
+
+h1,
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.score {
+  display: flex;
+  justify-content: space-around;
+  margin: 5rem;
+}
+
+#my-score,
+#computer-score {
+  font-size: 1.5rem;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem;
+}
+
+.rock,
+.paper,
+.scissors {
+  height: 200px;
+  width: 200px;
+  margin: 2rem;
+  font-size: 4rem;
+  border-radius: 100%;
+  cursor: pointer;
+}
